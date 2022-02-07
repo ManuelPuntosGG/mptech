@@ -17,8 +17,8 @@ $message .= "message: ".$_POST['message']."\r\n";
 $message .= "enviado el: ".date('d/m/Y',time());
 
 
-$para = 'consultas@servitecflhuaraz.com';
-$asunto = 'message de mi web';
+$para = 'alphamegc@gmail.com';
+$asunto = 'MP TECH';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
 echo "<script type='text/javascript'>alert('Tu message ha sido enviado exitosamente');</script>";
